@@ -9,3 +9,5 @@ tmp/
 .ruby-gemset
 .bundle/*
 *.gem
+./idea
+.DS_Store

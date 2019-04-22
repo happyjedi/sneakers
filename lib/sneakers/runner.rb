@@ -15,6 +15,10 @@ module Sneakers
     def stop
       @se.stop
     end
+
+    def reload
+      @se.reload
+    end
   end
 
 
