@@ -15,6 +15,10 @@ module Sneakers
     def stop
       @se.stop
     end
+
+    def reload
+      @se.reload
+    end
   end
 
 
@@ -83,6 +87,7 @@ module Sneakers
         :log_stderr => false
       )
       serverengine_config.delete(:log)
+      serverengine_config[:daemonize] = false
 
       serverengine_config
     end
